@@ -1,0 +1,69 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins", sans-serif;
+}
+
+/* body */
+
+body {
+    background-color: rgb(34, 34, 34);
+    color: #dddd;
+    font-family: "Poppins", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+}
+
+
+header {
+    display: flex;
+    flex-direction: row;
+}
+
+#title-winery {
+    cursor: pointer;
+}
+
+#title-winery:hover {
+    color: #7a003d;
+    transition: 0.5s all;
+
+}
+
+.header-menu {
+    display: flex;
+    flex-direction: row;
+    padding-left: 50%;
+}
+
+li, a {
+    display: inline-block;
+    border: 1px solid red;
+    cursor: pointer;
+    font-size: 2rem;
+    color: white;
+    text-decoration: none;
+    list-style: none;
+    font-weight: 200;
+
+}
+
+a:hover{
+    color: #7a003d;
+    transition: 0.5s all;
+}
+
+
+.header-menu {
+    padding-left: 50%;
+    gap: 1rem
+}
+
+
+input {
+    border-radius: 8px;
+    height: 30px;
+    border: 1px solid red;
+    width: 300px;
+
+}
