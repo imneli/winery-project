@@ -1,0 +1,58 @@
+.slider {
+    position: relative;
+}
+
+.slider .wrapper {
+    width: 1000px;
+    height: 300px;
+    box-shadow: 10px 10px 20px rgba(0 , 0, 0, 0.6);
+    border-radius: 10px;
+    margin: 5rem auto;
+    overflow: hidden;
+}
+.slider .wrapper-holder {
+    display: grid;
+    grid-template-columns: repeat(4, 100%);
+    height: 100%;
+    width: 100%;
+    animation: slider 30s ease-in-out infinite alternate;
+}
+
+.slider #slider-img-1 {
+    background-image: url(/IMG/vinhos1.png);
+    background-position: center;
+    background-size: cover;
+
+}
+
+.slider #slider-img-2 {
+    background-image: url(/IMG/vinhos2.png);
+    background-position: center;
+    background-size: cover;
+}
+
+.slider #slider-img-3 {
+    background-image: url(/IMG/vinhos3.png);
+    background-position: center;
+    background-size: cover;
+}
+
+.slider #slider-img-4 {
+    background-image: url(/IMG/vinhos4.png);
+    background-position: center;
+    background-size: cover;
+}
+
+@keyframes slider {
+    0%{transform: translateX(0%);}
+    10%{transform: translateX(-100%);}
+    20%{transform: translateX(-100%);}
+    30%{transform: translateX(-200%);}
+    40%{transform: translateX(-200%);}
+    50%{transform: translateX(-200%);}
+    60%{transform: translateX(-300%);}
+    70%{transform: translateX(-300%);}
+    80%{transform: translateX(-300%);}
+    90%{transform: translateX(0%);}
+    100%{transform: translateX(0%);}
+}
