@@ -19,26 +19,26 @@
 }
 
 .slider #slider-img-1 {
-    background-image: url(/IMG/vinhos1.png);
+    background-image: url(../IMG/vinhos1.png);
     background-position: center;
     background-size: cover;
 
 }
 
 .slider #slider-img-2 {
-    background-image: url(/IMG/vinhos2.png);
+    background-image: url(../IMG/vinhos2.png);
     background-position: center;
     background-size: cover;
 }
 
 .slider #slider-img-3 {
-    background-image: url(/IMG/vinhos3.png);
+    background-image: url(../IMG/vinhos3.png);
     background-position: center;
     background-size: cover;
 }
 
 .slider #slider-img-4 {
-    background-image: url(/IMG/vinhos4.png);
+    background-image: url(../IMG/vinhos4.png);
     background-position: center;
     background-size: cover;
 }
