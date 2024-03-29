@@ -83,7 +83,7 @@ nav .container {
     justify-content: space-between;
 }
 
-li, a {
+a {
     display: inline-block;
     cursor: pointer;
     font-size: 2rem;
@@ -91,6 +91,11 @@ li, a {
     text-decoration: none;
     list-style: none;
     font-weight: 200;
+}
+
+menu {
+    text-decoration: none;
+    list-style: none;
 }
 
 .search-bar {
