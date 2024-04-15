@@ -4,7 +4,7 @@
   "description": "",
   "main": "tailwind.config.js",
   "scripts": {
-    "wine": "npx tailwindcss -i /css/styles.css -o /css/output.css --watch"
+    "wine": "npx tailwindcss -i ./css/styles.css -o ./css/output.css --watch"
   },
   "author": "",
   "license": "ISC",
